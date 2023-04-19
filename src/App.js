@@ -4,9 +4,9 @@ import ProductsList from './components/ProductsList';
 function App() {
 
   return (
-    <>
-    <ProductsList></ProductsList>
-    </>
+    <div className='all-products'>
+    <ProductsList/>
+    </div>
   );
 }
 
